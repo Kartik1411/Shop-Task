@@ -1,0 +1,25 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 49.2%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(219, 51, 79);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 70px 15px rgb(97, 96, 96);
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        width: 88.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        width: 86.5%;
+    }
+}

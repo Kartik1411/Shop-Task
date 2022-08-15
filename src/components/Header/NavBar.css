@@ -1,0 +1,24 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 49.2%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(219, 51, 79);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        width: 88.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        width: 86.5%;
+    }
+}
